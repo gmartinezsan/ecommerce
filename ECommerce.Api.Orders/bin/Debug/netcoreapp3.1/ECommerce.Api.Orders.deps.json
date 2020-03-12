@@ -26,6 +26,8 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.2",
+          "Microsoft.EntityFrameworkCore.InMemory": "3.1.2",
+          "Microsoft.Extensions.Primitives": "3.1.2",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -393,6 +395,20 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/3.1.2": {},
+      "Microsoft.EntityFrameworkCore.InMemory/3.1.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.6703"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/3.1.2": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "3.1.2"
@@ -2312,6 +2328,13 @@
       "sha512": "sha512-2v0Md70wiGS1vmco8/koAz93eOSusFh83OqwYWFxhxS6wSii7LDOhWL5Ww/zRsuGkxH4uWtNkMg5gLXBTs64Jg==",
       "path": "microsoft.entityframeworkcore.analyzers/3.1.2",
       "hashPath": "microsoft.entityframeworkcore.analyzers.3.1.2.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fgLYEWHA9q8vXEztJi2vNtqGm68IbRaYORDNrCUMzQTe3Ve7+PemlKzWa9fnHhkGnZhda0PxV5RwGbmqIKFwjg==",
+      "path": "microsoft.entityframeworkcore.inmemory/3.1.2",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.3.1.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/3.1.2": {
       "type": "package",

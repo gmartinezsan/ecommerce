@@ -11,6 +11,6 @@ namespace ECommerce.Api.Orders.Models
       public int CustomerId { get; set; }
       public DateTime OrderDate { get; set; }
       public Decimal Total { get; set; }
-      public List<OrderItem> items { get; set; }
+      public List<OrderItem> Items { get; set; }
   }
 }

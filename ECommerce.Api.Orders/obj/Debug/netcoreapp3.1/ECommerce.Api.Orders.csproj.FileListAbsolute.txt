@@ -33,3 +33,5 @@ Z:\Projects\ECommerce\ECommerce.Api.Orders\bin\Debug\netcoreapp3.1\Microsoft.Ext
 Z:\Projects\ECommerce\ECommerce.Api.Orders\obj\Debug\netcoreapp3.1\ECommerce.Api.Orders.csproj.CopyComplete
 Z:\Projects\ECommerce\ECommerce.Api.Orders\bin\Debug\netcoreapp3.1\AutoMapper.dll
 Z:\Projects\ECommerce\ECommerce.Api.Orders\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+Z:\Projects\ECommerce\ECommerce.Api.Orders\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+Z:\Projects\ECommerce\ECommerce.Api.Orders\obj\Debug\netcoreapp3.1\ECommerce.Api.Orders.MvcApplicationPartsAssemblyInfo.cache
