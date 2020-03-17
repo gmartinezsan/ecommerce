@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ECommerce.Api.Search.Models
 {
-  public class Product
+  public class Customer
   {
     public int Id { get; set; }
     public string Name { get; set; }
