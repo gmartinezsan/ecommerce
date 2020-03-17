@@ -60,6 +60,9 @@ namespace ECommerce.Api.Products.Tests
 
     private void CreateProducts(ProductsDbContext dbContext)
     {
+      if (dbContext.Products.Any())
+        return;
+
        for (int i = 1; i <= 10; i++)
        {
         dbContext.Products.Add(
