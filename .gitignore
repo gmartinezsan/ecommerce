@@ -70,7 +70,7 @@ StyleCopReport.xml
 *_h.h
 *.ilk
 *.meta
-*.obj
+**/*.obj
 *.iobj
 *.pch
 *.pdb
@@ -337,3 +337,8 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+ECommerce.Api.Products/obj
+ECommerce.Api.Orders/obj
+ECommerce.Api.Orders/obj
+ECommerce.Api.Products/obj
